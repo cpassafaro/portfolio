@@ -1,0 +1,12 @@
+.welcome-container{
+    display:flex;
+    flex-direction: row;
+    background-color: #62A2EE;
+    height:100%;
+    color:white;
+}
+
+.image{
+    height:auto;
+    width: 500px;
+}

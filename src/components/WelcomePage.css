@@ -1,12 +1,40 @@
 .welcome-container{
     display:flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
     background-color: #62A2EE;
     height:100%;
     color:white;
+    padding-top:10%;
+    padding-left:5%;
+    padding-right:5%;
 }
 
 .image{
-    height:auto;
-    width: 500px;
+    height:30vh;
+    padding-right:25px;
+}
+
+.writing{
+    padding-left: 25px;
+    padding-top:0px;
+}
+
+.hey{
+    padding: 0;
+    margin:0;
+    font-size: 40px;
+    font-weight: 400;
+}
+.description{
+    font-size:30px;
+}
+button{
+    font-size:20px;
+    color:#62A2EE;
+    padding:30px;
+    border-radius: none;
+    border:none;
 }

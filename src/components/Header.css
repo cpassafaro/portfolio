@@ -1,12 +1,13 @@
 .header-container{
     display:flex;
     justify-content: space-between;
-    padding:35px;
+    padding:25px;
     background-color: white;
 }
 
 .h1-container{
     color:#62A2EE;
+    text-decoration: none;
 }
 
 .links{
@@ -17,6 +18,9 @@
 
 }
 
-p{
-    padding:15px;
+.p-links{
+    padding-right:40px;
+    font-size: 22px;
+    color:black;
+    text-decoration: none;
 }

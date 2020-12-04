@@ -17,8 +17,8 @@ function Header(){
                 <Link to='/projects' className='p-links'>
                     <p>Projects</p>
                 </Link>
-                <p><a href='https://www.linkedin.com/in/christina-passafaro-899a63a5/' className='p-links'>LinkedIn</a></p>
-                <p><a href='https://github.com/cpassafaro' className='p-links'>Github</a></p>
+                <p><a href='https://www.linkedin.com/in/christina-passafaro-899a63a5/' target="_blank" className='p-links'>LinkedIn</a></p>
+                <p><a href='https://github.com/cpassafaro' target="_blank" className='p-links'>Github</a></p>
             </div>
         </div>
     )

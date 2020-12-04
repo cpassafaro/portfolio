@@ -3,6 +3,7 @@ import Header from './components/Header'
 import WelcomePage from './components/WelcomePage'
 import { Route, Link} from "react-router-dom";
 import AboutMe from './components/AboutMe';
+import Projects from './components/Projects'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Header/>
       <Route exact path='/' component={WelcomePage}/>
       <Route path = '/aboutme' component={AboutMe}/>
+      <Route path = '/projects' component={Projects}/>
       </main>
     </div>
   );

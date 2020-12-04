@@ -1,0 +1,39 @@
+.project-whole{
+    color:white;
+}
+.title{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.project-container{
+    display:flex;
+    font-size: 30px;
+    justify-content: space-around;
+    align-items: center;
+    padding-top:50px;
+    padding-left:40px;
+    padding-right:40px;
+}
+
+.project-image{
+    width:auto;
+    border:5px solid #778574;
+    padding:5px;
+    margin-left:10px 
+}
+
+.button{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.b{
+    border-radius: 10px;
+    background:#C75642;
+    color:white;
+    text-decoration: none;
+}

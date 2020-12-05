@@ -3,6 +3,13 @@
 ### Project Description
 This project was completed using React Framework. It displays projects that I have worked on to make it easy to access deployed pages and repos. It also allows easy access to my linkedin and github.
 
+## Deployed URL
+https://christinapassafaro.netlify.app/projects
+
+## Sample
+****
+![Home Page](images/ME.png)
+
 ### Development Process
 
 __Date__ | __Progress__ | __To Do__|

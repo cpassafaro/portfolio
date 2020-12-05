@@ -8,7 +8,7 @@ https://christinapassafaro.netlify.app/projects
 
 ## Sample
 ****
-![Home Page](images/ME.png)
+![Home Page](src/images/ME.png)
 
 ### Development Process
 

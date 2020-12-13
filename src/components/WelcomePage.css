@@ -49,3 +49,8 @@ button{
 button:hover{
     background-color:#A17E67 ;
 }
+
+.button-area{
+    display:flex;
+    justify-content: space-between;
+}

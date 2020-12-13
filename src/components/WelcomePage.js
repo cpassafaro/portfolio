@@ -15,7 +15,7 @@ function WelcomePage(){
                     <Link to='/aboutme'>
                         <button>Learn More</button>
                     </Link>
-                    <button><a href='https://docs.google.com/document/d/1iobIATNAUMyjslP0g1aDJRg8yGrmTECEfmX9ie_xt1w/edit?usp=sharing' target="_blank">Resume</a></button>
+                    <button><a href='https://docs.google.com/document/d/1iobIATNAUMyjslP0g1aDJRg8yGrmTECEfmX9ie_xt1w/edit?usp=sharing' target="_blank" className='resume'>Resume</a></button>
                 </div>
             </div>
         </div>

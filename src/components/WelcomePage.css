@@ -54,3 +54,8 @@ button:hover{
     display:flex;
     justify-content: space-between;
 }
+
+.resume{
+    color:white;
+    text-decoration: none;
+}

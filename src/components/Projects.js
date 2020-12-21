@@ -9,10 +9,19 @@ import Book from "../images/book.png";
 import War from "../images/war.png";
 import Tab from "../images/tab.png";
 import Zee from "../images/zeecraft.png";
+import BoaterBeta from '../images/BoaterBeta.png'
 
 let projects = [
   {
-    name: "My Recipe Book",
+    name: 'Boater Beta | FullStack App',
+    languages: 'Javascript',
+    description: 'This project was built using the Javascript framework React with some material ui elements. This app is still partially under construction. This application was built for whitewater kayakers. It gathers water levels from all creeks and rivers in the United States through the USGS API. It then sends latitude and longitude information to the details page so that I can perform a get request from the National Weather API to see upcoming weather patterns. Users are able to create accounts so they can save their favorite rivers, and can leave public notes on the rivers to give updated river reports. These features are possible through my own deployed API and RESTFUL routes.',
+    pictures: BoaterBeta,
+    githubUrl: "https://github.com/cpassafaro/capstone_frontend",
+    deployedSite: "https://hardcore-jackson-68ff7b.netlify.app/"
+  },
+  {
+    name: "My Recipe Book | Fullstack App",
     languages: "Javascript",
     description:"This project was built to store your favorite recipes. This front end site was built using the framework react in conjunction with some elements from material ui. This site gathers information from my deployed JSON API via heroku. It gather information from the database to populate a user friendly interface to read, update, delete, and create recipes. The user has CRUD functionality to change the informatin on the seeded heroku database.",
     pictures: Picture,
@@ -28,7 +37,7 @@ let projects = [
     deployedSite: "https://bombrecipeapi.herokuapp.com/",
   },
   {
-    name: "Group Futurama Project",
+    name: "Group Futurama Project | FullStack App",
     description:"This project is an application that displays the character information from the show futurama using the javascript language with the framework React. Some elements were created with material ui and were uploaded to storybook. The site has full CRUD functionality to update the deployed heroku database from the backend portion of the project.",
     pictures: Futurama,
     githubUrl: "https://github.com/cpassafaro/front_end_futurama",

@@ -9,7 +9,7 @@
 
 .project-container{
     display:flex;
-    font-size: 24px;
+    font-size: 22px;
     /* flex-direction: row-reverse; */
     justify-content: space-around;
     align-items: center;
@@ -48,7 +48,7 @@
 
 .active{
     display:flex;
-    font-size: 30px;
+    /* font-size: 30px; */
     flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;

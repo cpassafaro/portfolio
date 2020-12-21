@@ -9,7 +9,8 @@ import Book from "../images/book.png";
 import War from "../images/war.png";
 import Tab from "../images/tab.png";
 import Zee from "../images/zeecraft.png";
-import BoaterBeta from '../images/BoaterBeta.png'
+import BoaterBeta from '../images/BoaterBeta.png';
+import RecipesFull from '../images/RecipesFull.png'
 
 let projects = [
   {
@@ -24,7 +25,7 @@ let projects = [
     name: "My Recipe Book | Fullstack App",
     languages: "Javascript",
     description:"This project was built to store your favorite recipes. This front end site was built using the framework react in conjunction with some elements from material ui. This site gathers information from my deployed JSON API via heroku. It gather information from the database to populate a user friendly interface to read, update, delete, and create recipes. The user has CRUD functionality to change the informatin on the seeded heroku database.",
-    pictures: Picture,
+    pictures: RecipesFull,
     githubUrl: "https://github.com/cpassafaro/front_end_of_json_api_project",
     deployedSite:
       "https://5fb302f7aeb9ba00073d79d4--hungry-colden-771163.netlify.app/",
@@ -107,7 +108,7 @@ export default function Projects() {
           <div className="project-whole">
             <div className="title">{projects[i].name}</div>
             <div className="project-container">
-              <p className="description">{projects[i].description}</p>
+              <p className="project-description">{projects[i].description}</p>
               <img src={projects[i].pictures} className="project-image" />
             </div>
             <div className="button">
@@ -134,8 +135,8 @@ export default function Projects() {
         console.log("odd", projects[i]);
         let odd = <div className="project-whole">
             <div className="title">{projects[i].name}</div>
-            <div className="active">
-              <p className="description">{projects[i].description}</p>
+            <div className="project-container active">
+              <p className="project-description">{projects[i].description}</p>
               <img
                 src={projects[i].pictures}
                 className="project-image"

@@ -6,6 +6,11 @@ This project was completed using React Framework. It displays projects that I ha
 ## Deployed URL
 https://christinapassafaro.netlify.app/projects
 
+## To Run
+- Fork Repository
+- npm install
+- npm start
+
 ## Sample
 ****
 ![Home Page](src/images/ME.png)

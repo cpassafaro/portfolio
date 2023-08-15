@@ -3,12 +3,9 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    position: relative;
     height:100%;
     color:white;
-    padding-top:10%;
-    padding-left:5%;
-    padding-right:5%;
+    padding:4%;
     transition-delay: 1s;
     transition-timing-function: ease-in;
 }
@@ -36,6 +33,12 @@
 .description{
     font-size:30px;
 }
+.container-tools{
+    font-size:25px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
 button{
     font-size:20px;
     font-weight:bold;
@@ -46,13 +49,17 @@ button{
     background-color: #BAAEA4;
 }
 
+.btn-learn-more {
+    margin-right: 15px;
+}
+
 button:hover{
     background-color:#A17E67 ;
 }
 
 .button-area{
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .resume{

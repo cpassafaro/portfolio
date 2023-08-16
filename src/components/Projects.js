@@ -1,14 +1,9 @@
 import "./Projects.css";
-import Picture from "../images/recipe2.png";
 import RecipeApi from "../images/RecipeApi.png";
-import Futurama from "../images/futurama.png";
 import Hangman from "../images/hangman.png";
 import Flashcards from "../images/flashcards.png";
 import Library from "../images/library.png";
 import Book from "../images/book.png";
-import War from "../images/war.png";
-import Tab from "../images/tab.png";
-import Zee from "../images/zeecraft.png";
 import BoaterBeta from '../images/BoaterBeta.png';
 import RecipesFull from '../images/RecipesFull.png'
 
@@ -38,13 +33,6 @@ let projects = [
     deployedSite: "https://bombrecipeapi.herokuapp.com/",
   },
   {
-    name: "Group Futurama Project | FullStack App",
-    description:"This project is an application that displays the character information from the show futurama using the javascript language with the framework React. Some elements were created with material ui and were uploaded to storybook. The site has full CRUD functionality to update the deployed heroku database from the backend portion of the project.",
-    pictures: Futurama,
-    githubUrl: "https://github.com/cpassafaro/front_end_futurama",
-    deployedSite: "https://futuramacharacters.netlify.app/",
-  },
-  {
     name: "Hangman Project",
     description:"This project was built with Javascript, HTML, and CSS. Functionality was added to guide the player through the game. Sounds and modals were added for extra engagement with players. This is deployed via github pages.",
     pictures: Hangman,
@@ -71,29 +59,6 @@ let projects = [
     pictures: Book,
     githubUrl: "https://github.com/cpassafaro/UI-Element-Project",
     deployedSite: "https://cpassafaro.github.io/UI-Element-Project/",
-  },
-  {
-    name: "Game of War",
-    description:"This project was built using Javascipt and played through the console. Players split a deck of cards and then compare one card each round to see who the winner is. To play start by typing in war.playCard() to draw a deck from each card, then type in war.compareCard() to compare. The winner gets both of the cards. In the event of a tie, the console runs through war conditions and declares winner.",
-    pictures: War,
-    githubUrl:"https://github.com/cpassafaro/game-of-war/blob/master/README.md",
-    deployedSite: "https://cpassafaro.github.io/game-of-war/",
-  },
-  {
-    name: "React Tab Project",
-    description:
-      "This front end application is built using the framework React. All css styling is done without the assistance of material ui or bootstap. The application pulls from the google books api to populate the tabs of information. Overall, this project displays a tab component. Each tab is populated by an individual book and the user is able to click on each tab to display that individual books information. The title, author, published date, description, and picture are all pulled from the api.",
-    pictures: Tab,
-    githubUrl: "https://github.com/cpassafaro/UI-API-React",
-    deployedSite: "https://book-modal.netlify.app/",
-  },
-  {
-    name: "Adobe Mockup Project",
-    description:
-      "This project is a mockup that imitates the adobe xd design called cake.xd. It is responsive to resizing for various technologies.",
-    pictures: Zee,
-    githubUrl: "https://github.com/cpassafaro/build_a_website_project1",
-    deployedSite: "https://cpassafaro.github.io/build_a_website_project1/",
   },
 ];
 

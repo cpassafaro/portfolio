@@ -17,24 +17,26 @@ function WelcomePage() {
             systems, and set up and maintained application environments. My
             expertise in team collaboration has allowed me to handle and resolve
             conflicts that may arise within repositories and application
-            environments. Furthermore, my extensive experience in communal
-            outreach positions with the Forest Service and local county
-            government has further honed my communication skills. With my strong
-            communication skills and technical expertise, I am confident that I
-            would be an asset to any team.
+            environments. I also spent 4 years in the Navy as an information
+            technician working on ship-to-shore network communications. This
+            experience forged my diverse technical skills from software
+            engineering to server-side troubleshooting. Furthermore, my
+            extensive experience in communal outreach positions with the Forest
+            Service and local county government has further honed my
+            communication skills. With my concise communication and technical
+            expertise, I am confident that I would be an asset to any team.
           </p>
-          <div class='container-tools'>
-            <p><span>Languages: </span>Javascript, Python, PHP</p>
-            <p><span>Frameworks: </span>Vue, Angular, React, Typescript, Laravel, Django, Node.js, Express</p>
-            <p><span>Tools: </span>Composer, NPM, Laravel Query Builder, Nuxt,  lodash, Postman, beaver, vuedraggable, vue-excel-editor, prettier, phpunit, phpspreadsheet, jasmine, Postgres</p>
+          <div class="container-tools">
+            <p>
+              <span>Languages: </span>Javascript, Python, PHP
+            </p>
+            <p>
+              <span>Frameworks: </span>Vue, Angular, React, Typescript, Laravel,
+              Django, Node.js, Express
+            </p>
+            <p>Reach Out at: christinapassafaro@gmail.com</p>
           </div>
-          <p className="description">
-            Reach Out at: christinapassafaro@gmail.com
-          </p>
           <div className="button-area">
-            <Link to="/aboutme" class="btn-learn-more">
-              <button>Learn More</button>
-            </Link>
             <button>
               <a
                 href="https://docs.google.com/document/d/1iobIATNAUMyjslP0g1aDJRg8yGrmTECEfmX9ie_xt1w/edit?usp=sharing"

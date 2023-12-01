@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function WelcomePage() {
   return (
     <div>
-      <div className="welcome-container">
+      <div className="container-welcome">
         <img src={Picture} className="image" />
         <div className="writing">
           <p className="hey">Hey ✌🏼</p>
@@ -31,8 +31,8 @@ function WelcomePage() {
               <span>Languages: </span>Javascript, Python, PHP
             </p>
             <p>
-              <span>Frameworks: </span>Vue, Angular, React, Typescript, Laravel,
-              Django, Node.js, Express
+              <span>Frameworks: </span>Vue, Angular, React, Laravel,
+              Node.js, Express
             </p>
             <p>Reach Out at: christinapassafaro@gmail.com</p>
           </div>

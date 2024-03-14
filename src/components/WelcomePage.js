@@ -39,7 +39,7 @@ function WelcomePage() {
           <div className="button-area">
             <button>
               <a
-                href="https://docs.google.com/document/d/1iobIATNAUMyjslP0g1aDJRg8yGrmTECEfmX9ie_xt1w/edit?usp=sharing"
+                href="https://docs.google.com/document/d/1aD2j50fP1rak7QwLruUNOnOXGDsu8Qag/edit?usp=sharing&ouid=102404970052527624543&rtpof=true&sd=true"
                 target="_blank"
                 className="resume"
               >
